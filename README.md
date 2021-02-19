@@ -1,4 +1,4 @@
-# swp-woocommerce-sales-taxes-canada
+# Canadian Sales Tax Rates for WooCommerce
 
 For anyone running a WooCommerce shop in Canada, more often than not, this will mean configuring WooCommerce to add the appropriate tax rates for all Provinces in the country.
 
