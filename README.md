@@ -1,11 +1,32 @@
 # Canadian Sales Tax Rates for WooCommerce
 
-For anyone running a WooCommerce shop in Canada, more often than not, this will mean configuring WooCommerce to add the appropriate tax rates for all Provinces in the country.
+Easily configure your WooCommerce store with accurate Canadian sales tax rates for all provinces and territories.
 
-There's a simpler and faster way : you can download and import this CSV file in WooCommerce and within seconds, get all the correct tax rates in your website.
+## Overview
 
-The source of our data is the **Retail Council of Canada**, available at https://www.retailcouncil.org/resources/quick-facts/sales-tax-rates-by-province/
+If you're running a WooCommerce shop in Canada, configuring the correct tax rates by province can be time-consuming and error-prone. This repository provides a simple solution: downloadable CSV files you can import directly into WooCommerce.
 
-Because tax labels are shown on the frontend in the Cart and the Checkout page, please make sure to use the appropriate base CSV file, English (tax_rates-en.csv) or French (tax_rates-fr.csv), for your needs.
+Within seconds, your store will be updated with the correct tax rates — no manual entry required.
 
-*Disclaimer : We are not responsible for any losses, direct or indirect, due to using this file.*
+## Quick Start
+
+1. **Download the CSV file**  
+   Choose the appropriate file based on your store’s language:
+   - English: [`tax_rates-en.csv`](./tax_rates-en.csv)
+   - French: [`tax_rates-fr.csv`](./tax_rates-fr.csv)
+
+2. **Import into WooCommerce**  
+   In your WordPress admin panel:
+   - Go to **WooCommerce > Settings > Tax > Import CSV**
+   - Upload the CSV file and import.
+
+3. **Verify Tax Labels**  
+   WooCommerce displays tax labels on the Cart and Checkout pages. Ensure you’ve selected the appropriate language version of the CSV file to match your store’s frontend.
+
+## Data Source
+
+The sales tax rates included in these files are based on the most recent data from the [Retail Council of Canada](https://www.retailcouncil.org/resources/quick-facts/sales-tax-rates-by-province/).
+
+## Disclaimer
+
+We provide these files as a convenience only. **We are not responsible for any direct or indirect losses** resulting from their use. Always verify tax settings with your accountant or a legal advisor to ensure compliance with current regulations.
